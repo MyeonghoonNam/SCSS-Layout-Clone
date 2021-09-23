@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 56px 1fr;
+  grid-template-columns: 240px 1fr;
+  grid-template-areas:
+    'header header'
+    'aside main';
+}
+
+.header {
+  grid-area: header;
+  background-color: darkgray;
+  border: solid 1px white;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: darkgray;
+  border: solid 1px white;
+}
+
+.main {
+  grid-area: main;
+  background-color: darkgray;
+  border: solid 1px white;
+}
+// height: 56px;
+// padding: 0 16px;
