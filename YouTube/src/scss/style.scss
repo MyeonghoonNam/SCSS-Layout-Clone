@@ -32,7 +32,6 @@
     min-width: 225px;
     align-items: center;
     justify-content: flex-end;
-    background-color: royalblue;
   }
 }
 
@@ -147,6 +146,59 @@
     line-height: 0;
     cursor: pointer;
   }
+}
+
+.buttons {
+  display: flex;
+}
+.container__button--app,
+.container__button--setting,
+.container__button--login {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.button__icon--app,
+.button__icon--setting,
+.button__icon--user {
+  box-sizing: border-box;
+  vertical-align: middle;
+  color: inherit;
+  outline: none;
+  background: none;
+  margin: 0;
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  border: solid 1px #065fd4;
+  color: #065fd4;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login span {
+  padding-right: 8px;
+}
+// .container__button--login {
+//   width: 100px;
+//   height: 24px;
+// }
+
+// .button__icon--user {
+//   width: 100%;
+// }
+
+img {
+  width: 70%;
 }
 
 .aside {
