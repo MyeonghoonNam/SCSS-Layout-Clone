@@ -1,6 +1,6 @@
-// body {
-//   overflow: hidden;
-// }
+body {
+  overflow: hidden;
+}
 
 .container {
   display: grid;
@@ -201,6 +201,7 @@ img {
   grid-area: aside;
   border: solid 1px white;
   padding: 0 0 12px 0;
+  // position: fixed;
 
   .aside__section {
     padding: 12px 0;
@@ -269,20 +270,20 @@ img {
   }
 
   .main-section {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: row;
     justify-items: center;
-    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 85vh;
+    overflow: auto;
 
     .main-section__video {
       width: 340px;
       height: 300px;
       border: solid 1px black;
+      margin: 10px;
     }
   }
 }
