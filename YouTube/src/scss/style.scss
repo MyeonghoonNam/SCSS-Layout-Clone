@@ -222,6 +222,37 @@ img {
 
 .main {
   grid-area: main;
-  background-color: darkgray;
   border: solid 1px white;
+
+  .main-header {
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .main-header__category {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 32px;
+      font-size: 14px;
+      font-family: Roboto, Arial, sans-serif;
+      margin: 12px;
+      padding: 0 12px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      border-radius: 16px;
+      box-sizing: border-box;
+    }
+
+    .main-header__category:nth-child(1) {
+      background-color: #030303;
+      color: white;
+    }
+  }
 }
