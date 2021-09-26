@@ -183,6 +183,25 @@ img {
 .aside {
   grid-area: aside;
   border: solid 1px white;
+  padding: 0 0 12px 0;
+}
+.aside .aside__section {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.aside .aside__guide {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, Arial, sans-serif;
+}
+.aside .aside__guide .guide__icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 24px 0 0;
 }
 
 .main {
