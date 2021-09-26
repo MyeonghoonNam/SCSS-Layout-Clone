@@ -243,5 +243,21 @@ img {
   background-color: #030303;
   color: white;
 }
+.main .main-section {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+}
+.main .main-section .main-section__video {
+  width: 340px;
+  height: 300px;
+  border: solid 1px black;
+}
 
 /*# sourceMappingURL=style.css.map */
