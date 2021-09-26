@@ -253,6 +253,10 @@ img {
       border-radius: 16px;
       box-sizing: border-box;
 
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
       &:nth-child(1) {
         background-color: #030303;
         color: white;
