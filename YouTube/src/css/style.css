@@ -203,6 +203,9 @@ img {
   height: 24px;
   margin: 0 24px 0 0;
 }
+.aside .aside__guide:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 .main {
   grid-area: main;

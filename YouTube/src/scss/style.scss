@@ -217,6 +217,10 @@ img {
       height: 24px;
       margin: 0 24px 0 0;
     }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 }
 
@@ -248,11 +252,11 @@ img {
       cursor: pointer;
       border-radius: 16px;
       box-sizing: border-box;
-    }
 
-    .main-header__category:nth-child(1) {
-      background-color: #030303;
-      color: white;
+      &:nth-child(1) {
+        background-color: #030303;
+        color: white;
+      }
     }
   }
 }
