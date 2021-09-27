@@ -1,0 +1,10 @@
+.header-row {
+  border: solid 1px black;
+  height: 4rem;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
