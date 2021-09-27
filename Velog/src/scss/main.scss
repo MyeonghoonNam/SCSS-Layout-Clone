@@ -5,15 +5,18 @@
 }
 
 .search {
+  @include mix.createButton;
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 0.75rem;
-  @include mix.createButton;
 }
 
 .login {
+  @include mix.createButton;
   height: 2rem;
   padding: 0 1rem;
   font-size: 1rem;
-  @include mix.createButton;
+  font-weight: bold;
+  border-radius: 1rem;
+  background: rgb(52, 58, 64);
 }

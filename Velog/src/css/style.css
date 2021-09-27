@@ -8,21 +8,30 @@
 }
 
 .search {
+  padding: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 0.75rem;
-  padding: 0;
-  background: none;
-  border: 0;
 }
 
 .login {
-  height: 2rem;
-  padding: 0 1rem;
-  font-size: 1rem;
   padding: 0;
   background: none;
   border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  height: 2rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  background: #343a40;
 }
 
 /*# sourceMappingURL=style.css.map */

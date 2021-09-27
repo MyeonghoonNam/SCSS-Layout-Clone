@@ -3,7 +3,7 @@
 @mixin createdHeaderRow() {
   border: solid 1px black;
   height: var.$header-row-height;
-  padding: 0 16px;
+  padding: var.$header-row-padding;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,5 +13,7 @@
   padding: 0;
   background: none;
   border: 0;
+  outline: none;
+  color: white;
   cursor: pointer;
 }
