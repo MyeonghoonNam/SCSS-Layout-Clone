@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 1 728px;
+    flex: 0 1 37.916%;
   }
 
   &__end {
@@ -201,7 +201,6 @@ img {
   grid-area: aside;
   border: solid 1px white;
   padding: 0 0 12px 0;
-  // position: fixed;
 
   .aside__section {
     padding: 12px 0;
@@ -280,7 +279,7 @@ img {
     overflow: auto;
 
     .main-section__video {
-      width: 340px;
+      width: 17.7083%;
       height: 300px;
       border: solid 1px black;
       margin: 10px;

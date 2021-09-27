@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 1 728px;
+  flex: 0 1 37.916%;
 }
 .header__end {
   display: flex;
@@ -258,7 +258,7 @@ img {
   overflow: auto;
 }
 .main .main-section .main-section__video {
-  width: 340px;
+  width: 17.7083%;
   height: 300px;
   border: solid 1px black;
   margin: 10px;
