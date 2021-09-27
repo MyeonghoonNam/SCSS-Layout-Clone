@@ -19,4 +19,8 @@
   font-weight: bold;
   border-radius: 1rem;
   background: rgb(52, 58, 64);
+
+  &:hover {
+    background: rgba(52, 58, 64, 0.7);
+  }
 }
