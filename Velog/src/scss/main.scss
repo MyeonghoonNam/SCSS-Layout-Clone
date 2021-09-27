@@ -1,6 +1,19 @@
-// @use './utils/variables' as var;
 @use './utils/mixins' as mix;
 
 .header-row {
-  @include mix.createdHeaderRow();
+  @include mix.createdHeaderRow;
+}
+
+.search {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.75rem;
+  @include mix.createButton;
+}
+
+.login {
+  height: 2rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  @include mix.createButton;
 }

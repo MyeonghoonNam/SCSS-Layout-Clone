@@ -7,4 +7,22 @@
   align-items: center;
 }
 
+.search {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.75rem;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+.login {
+  height: 2rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

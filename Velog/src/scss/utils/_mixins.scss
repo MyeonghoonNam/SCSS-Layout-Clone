@@ -8,3 +8,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@mixin createButton() {
+  padding: 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
