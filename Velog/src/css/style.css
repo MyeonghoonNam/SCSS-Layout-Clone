@@ -29,12 +29,62 @@
   height: 2rem;
   padding: 0 1rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: bold;
   border-radius: 1rem;
   background: #343a40;
 }
 .login:hover {
   background: rgba(52, 58, 64, 0.7);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 21rem;
+}
+
+.button__trend {
+  padding: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  border-bottom: solid 2px black;
+  color: #343a40;
+}
+
+.button__recent {
+  padding: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1.125rem;
+  color: #868e96;
+}
+
+.button__select {
+  padding: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  width: 5.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #495057;
 }
 
 /*# sourceMappingURL=style.css.map */

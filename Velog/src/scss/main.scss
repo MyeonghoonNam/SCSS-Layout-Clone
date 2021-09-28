@@ -30,3 +30,38 @@
     background: rgba(52, 58, 64, 0.7);
   }
 }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 21rem;
+}
+
+.button__trend {
+  @include mix.createdButton;
+  width: 7rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: var.$font-regular;
+  border-bottom: solid 2px black;
+  color: rgb(52, 58, 64);
+}
+
+.button__recent {
+  @include mix.createdButton;
+  width: 7rem;
+  height: 3rem;
+  font-size: var.$font-regular;
+  color: rgb(134, 142, 150);
+}
+
+.button__select {
+  @include mix.createdButton;
+  width: 5.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var.$font-small;
+  color: rgb(73, 80, 87);
+}
