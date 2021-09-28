@@ -1,21 +1,27 @@
 @use './utils/mixins' as mix;
+@use './utils/variables' as var;
 
 .header-row {
-  @include mix.createdHeaderRow;
+  border: solid 1px black;
+  height: var.$header-row-height;
+  padding: var.$header-row-padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search {
-  @include mix.createButton;
+  @include mix.createdButton;
   width: 2.5rem;
-  height: 2.5rem;
+  height: 2rem;
   margin-right: 0.75rem;
 }
 
 .login {
-  @include mix.createButton;
+  @include mix.createdButton;
   height: 2rem;
   padding: 0 1rem;
-  font-size: 1rem;
+  font-size: var.$font-small;
   font-weight: bold;
   border-radius: 1rem;
   background: rgb(52, 58, 64);

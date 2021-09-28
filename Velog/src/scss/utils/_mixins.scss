@@ -1,15 +1,4 @@
-@use './variables' as var;
-
-@mixin createdHeaderRow() {
-  border: solid 1px black;
-  height: var.$header-row-height;
-  padding: var.$header-row-padding;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@mixin createButton() {
+@mixin createdButton() {
   padding: 0;
   background: none;
   border: 0;
