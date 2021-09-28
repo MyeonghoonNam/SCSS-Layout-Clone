@@ -2,7 +2,6 @@
 @use './utils/variables' as var;
 
 .header-row {
-  border: solid 1px black;
   height: var.$header-row-height;
   padding: var.$header-row-padding;
   display: flex;
@@ -64,4 +63,12 @@
   align-items: center;
   font-size: var.$font-small;
   color: rgb(73, 80, 87);
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var.$font-medium;
+  color: rgb(134, 142, 150);
 }
