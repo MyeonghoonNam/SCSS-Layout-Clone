@@ -103,6 +103,11 @@
   height: 20rem;
   border: solid 1px black;
   margin: 1rem 1rem;
+  transition: all 0.3s ease-out;
+}
+.post:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 5px lightgray;
 }
 
 /*# sourceMappingURL=style.css.map */
