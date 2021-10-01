@@ -23,10 +23,10 @@
   font-size: var.$font-small;
   font-weight: bold;
   border-radius: 1rem;
-  background: rgb(52, 58, 64);
+  background: var.$color-jetblack;
 
   &:hover {
-    background: rgba(52, 58, 64, 0.7);
+    background: var.$color-darkgray;
   }
 }
 
@@ -43,7 +43,7 @@
   font-weight: bold;
   font-size: var.$font-regular;
   border-bottom: solid 2px black;
-  color: rgb(52, 58, 64);
+  color: var.$color-jetblack;
 }
 
 .button--recent {
@@ -51,7 +51,7 @@
   width: 7rem;
   height: 3rem;
   font-size: var.$font-regular;
-  color: rgb(134, 142, 150);
+  color: var.$color-gray;
 }
 
 .button--select {
@@ -62,7 +62,8 @@
   justify-content: center;
   align-items: center;
   font-size: var.$font-small;
-  color: rgb(73, 80, 87);
+  font-weight: bold;
+  color: var.$color-jetblack;
 }
 
 .settings {
@@ -70,5 +71,5 @@
   justify-content: center;
   align-items: center;
   font-size: var.$font-medium;
-  color: rgb(134, 142, 150);
+  color: var.$color-gray;
 }

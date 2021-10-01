@@ -30,10 +30,10 @@
   font-size: 1rem;
   font-weight: bold;
   border-radius: 1rem;
-  background: #343a40;
+  background: #343434;
 }
 .login:hover {
-  background: rgba(52, 58, 64, 0.7);
+  background: #a9a9a9;
 }
 
 .buttons {
@@ -54,7 +54,7 @@
   font-weight: bold;
   font-size: 1.125rem;
   border-bottom: solid 2px black;
-  color: #343a40;
+  color: #343434;
 }
 
 .button--recent {
@@ -67,7 +67,7 @@
   width: 7rem;
   height: 3rem;
   font-size: 1.125rem;
-  color: #868e96;
+  color: #808080;
 }
 
 .button--select {
@@ -83,7 +83,8 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  color: #495057;
+  font-weight: bold;
+  color: #343434;
 }
 
 .settings {
@@ -91,7 +92,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  color: #868e96;
+  color: #808080;
 }
 
 main {
