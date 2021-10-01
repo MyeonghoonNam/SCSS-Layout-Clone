@@ -1,75 +1,76 @@
 @use '../utils/mixins' as mix;
 @use '../utils/variables' as var;
 
-.header__row {
-  height: 4rem;
-  padding: 0 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.search {
-  @include mix.createdButton;
-  width: 2.5rem;
-  height: 2rem;
-  margin-right: 0.75rem;
-}
-
-.login {
-  @include mix.createdButton;
-  height: 2rem;
-  padding: 0 1rem;
-  font-size: var.$font-small;
-  font-weight: bold;
-  border-radius: 1rem;
-  background: var.$color-jetblack;
-
-  &:hover {
-    background: var.$color-darkgray;
+header {
+  .header__row {
+    height: 4rem;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  width: 21rem;
-}
+  // 1st row
+  .search {
+    @include mix.createdButton;
+    width: 2.5rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+  }
 
-.button--trend {
-  @include mix.createdButton;
-  width: 7rem;
-  height: 3rem;
-  font-weight: bold;
-  font-size: var.$font-regular;
-  border-bottom: solid 2px black;
-  color: var.$color-jetblack;
-}
+  .login {
+    @include mix.createdButton;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size: var.$font-small;
+    font-weight: bold;
+    border-radius: 1rem;
+    background: var.$color-jetblack;
 
-.button--recent {
-  @include mix.createdButton;
-  width: 7rem;
-  height: 3rem;
-  font-size: var.$font-regular;
-  color: var.$color-gray;
-}
+    &:hover {
+      background: var.$color-darkgray;
+    }
+  }
 
-.button--select {
-  @include mix.createdButton;
-  width: 5.5rem;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: var.$font-small;
-  font-weight: bold;
-  color: var.$color-jetblack;
-}
+  // 2nd row
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 21rem;
 
-.settings {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: var.$font-medium;
-  color: var.$color-gray;
+    .button {
+      @include mix.createdButton;
+      width: 7rem;
+      height: 3rem;
+      font-size: var.$font-regular;
+
+      &.button--trend {
+        font-weight: bold;
+        border-bottom: solid 2px black;
+        color: var.$color-jetblack;
+      }
+
+      &.button--recent {
+        color: var.$color-gray;
+      }
+
+      &.button--select {
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: var.$font-small;
+        font-weight: bold;
+        color: var.$color-jetblack;
+      }
+    }
+
+    .settings {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: var.$font-medium;
+      color: var.$color-gray;
+    }
+  }
 }

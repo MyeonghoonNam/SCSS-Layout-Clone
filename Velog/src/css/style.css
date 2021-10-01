@@ -1,12 +1,11 @@
-.header__row {
+header .header__row {
   height: 4rem;
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.search {
+header .search {
   padding: 0;
   background: none;
   border: 0;
@@ -17,8 +16,7 @@
   height: 2rem;
   margin-right: 0.75rem;
 }
-
-.login {
+header .login {
   padding: 0;
   background: none;
   border: 0;
@@ -32,17 +30,15 @@
   border-radius: 1rem;
   background: #343434;
 }
-.login:hover {
+header .login:hover {
   background: #a9a9a9;
 }
-
-.buttons {
+header .buttons {
   display: flex;
   align-items: center;
   width: 21rem;
 }
-
-.button--trend {
+header .buttons .button {
   padding: 0;
   background: none;
   border: 0;
@@ -51,33 +47,17 @@
   cursor: pointer;
   width: 7rem;
   height: 3rem;
-  font-weight: bold;
   font-size: 1.125rem;
+}
+header .buttons .button.button--trend {
+  font-weight: bold;
   border-bottom: solid 2px black;
   color: #343434;
 }
-
-.button--recent {
-  padding: 0;
-  background: none;
-  border: 0;
-  outline: none;
-  color: white;
-  cursor: pointer;
-  width: 7rem;
-  height: 3rem;
-  font-size: 1.125rem;
+header .buttons .button.button--recent {
   color: #808080;
 }
-
-.button--select {
-  padding: 0;
-  background: none;
-  border: 0;
-  outline: none;
-  color: white;
-  cursor: pointer;
-  width: 5.5rem;
+header .buttons .button.button--select {
   height: 3rem;
   display: flex;
   justify-content: center;
@@ -86,8 +66,7 @@
   font-weight: bold;
   color: #343434;
 }
-
-.settings {
+header .buttons .settings {
   display: flex;
   justify-content: center;
   align-items: center;
