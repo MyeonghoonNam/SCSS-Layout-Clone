@@ -36,7 +36,7 @@
   width: 21rem;
 }
 
-.button__trend {
+.button--trend {
   @include mix.createdButton;
   width: 7rem;
   height: 3rem;
@@ -46,7 +46,7 @@
   color: rgb(52, 58, 64);
 }
 
-.button__recent {
+.button--recent {
   @include mix.createdButton;
   width: 7rem;
   height: 3rem;
@@ -54,7 +54,7 @@
   color: rgb(134, 142, 150);
 }
 
-.button__select {
+.button--select {
   @include mix.createdButton;
   width: 5.5rem;
   height: 3rem;

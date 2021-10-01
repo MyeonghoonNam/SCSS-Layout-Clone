@@ -42,7 +42,7 @@
   width: 21rem;
 }
 
-.button__trend {
+.button--trend {
   padding: 0;
   background: none;
   border: 0;
@@ -57,7 +57,7 @@
   color: #343a40;
 }
 
-.button__recent {
+.button--recent {
   padding: 0;
   background: none;
   border: 0;
@@ -70,7 +70,7 @@
   color: #868e96;
 }
 
-.button__select {
+.button--select {
   padding: 0;
   background: none;
   border: 0;
