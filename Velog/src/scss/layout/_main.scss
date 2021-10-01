@@ -1,3 +1,5 @@
+@use '../utils/variables' as var;
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
@@ -10,7 +12,7 @@ main {
 
     &:hover {
       transform: translateY(-10px);
-      box-shadow: 0 10px 5px lightgray;
+      box-shadow: 0 10px 5px var.$color-lightgray;
     }
   }
 }
