@@ -1,7 +1,7 @@
 @use '../utils/mixins' as mix;
 @use '../utils/variables' as var;
 
-.header-row {
+.header__row {
   height: var.$header-row-height;
   padding: var.$header-row-padding;
   display: flex;
