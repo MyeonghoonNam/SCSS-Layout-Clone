@@ -76,16 +76,15 @@ header .buttons .settings {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, auto));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
 }
-
-.post {
+main .post {
   height: 20rem;
   border: solid 1px black;
   margin: 1rem 1rem;
-  transition: all 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
-.post:hover {
+main .post:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 5px lightgray;
 }
