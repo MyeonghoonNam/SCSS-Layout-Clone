@@ -94,7 +94,7 @@
   color: #868e96;
 }
 
-.main {
+main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, auto));
 }
