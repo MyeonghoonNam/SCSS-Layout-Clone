@@ -2,8 +2,8 @@
 @use '../utils/variables' as var;
 
 .header__row {
-  height: var.$header-row-height;
-  padding: var.$header-row-padding;
+  height: 4rem;
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
