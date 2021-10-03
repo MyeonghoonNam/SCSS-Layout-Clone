@@ -1,7 +1,14 @@
 .aside {
   grid-area: aside;
+  height: calc(100vh - 70px);
+  position: sticky;
+  top: 56px;
   border: solid 1px white;
   padding: 0 0 12px 0;
+
+  &:hover {
+    overflow: auto;
+  }
 
   .aside__section {
     padding: 12px 0;
