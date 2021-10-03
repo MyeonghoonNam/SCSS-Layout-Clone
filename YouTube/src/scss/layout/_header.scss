@@ -12,15 +12,17 @@ button {
   justify-content: center;
   align-items: center;
   position: relative;
+
   &:hover::after {
     position: absolute;
-    top: calc(100% + 20px);
+    top: calc(100% + 5px);
     padding: 8px;
     border-radius: $border-radius;
     color: white;
     font-size: 14px;
     background-color: rgba(black, 0.5);
     white-space: nowrap;
+    z-index: 1;
   }
   svg {
     width: 24px;
@@ -37,6 +39,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
 
   .start {
     display: flex;
@@ -93,6 +96,7 @@ header {
       height: 40px;
       color: white;
       display: flex;
+
       &__inner {
         flex-grow: 1;
         position: relative;
@@ -132,6 +136,7 @@ header {
           }
         }
       }
+
       button[type='submit'] {
         width: 64px;
         height: 40px;
@@ -143,7 +148,7 @@ header {
         }
       }
     }
-    button.search--voice {
+    .search--voice {
       width: 40px;
       height: 40px;
       border-radius: 50%;
@@ -156,7 +161,6 @@ header {
 
   .end {
     display: flex;
-    // min-width: 225px;
     flex: 1;
 
     align-items: center;
