@@ -1,7 +1,6 @@
 main {
   grid-area: main;
   border: solid 1px white;
-  z-index: auto;
 
   .categories {
     display: flex;
@@ -43,7 +42,7 @@ main {
 
   .videos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     padding: 10px 0;
 
     .video {
