@@ -3,7 +3,7 @@ aside {
   height: calc(100vh - 70px);
   position: sticky;
   top: 56px;
-  border: solid 1px white;
+  border: solid 1px none;
   padding: 0 0 12px 0;
 
   &:hover {
@@ -27,7 +27,7 @@ aside {
     .guide__icon {
       width: 24px;
       height: 24px;
-      margin: 0 24px 0 0;
+      margin-right: 24px;
     }
 
     &:hover {
