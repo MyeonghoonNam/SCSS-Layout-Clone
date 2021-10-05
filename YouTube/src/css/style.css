@@ -148,42 +148,39 @@ header .end {
   align-items: center;
   justify-content: flex-end;
 }
-header .end .buttons {
-  display: flex;
-}
-header .end .container__button--app,
-header .end .container__button--setting,
-header .end .container__button--login {
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-}
-header .end .button__icon--app,
-header .end .button__icon--setting,
-header .end .button__icon--user {
-  box-sizing: border-box;
-  vertical-align: middle;
-  color: inherit;
+header .end .button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0 8px;
   outline: none;
-  background: none;
-  margin: 0;
   border: none;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  line-height: 0;
+  box-sizing: border-box;
+  background: none;
   cursor: pointer;
+}
+header .end .button:hover {
+  background-color: #eee;
+}
+header .end .button--rounded {
+  width: 40px;
+  border-radius: 100px;
+}
+header .end .button--outlined {
+  padding: 0 12px;
+  border: 1px solid #065fd4;
+  border-radius: 4px;
+}
+header .end .button img {
+  width: 16px;
 }
 header .end .login {
-  display: flex;
-  align-items: center;
-  border: solid 1px #065fd4;
-  color: #065fd4;
-  border-radius: 3px;
-  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
 }
-header .end .login span {
-  padding-right: 8px;
+header .end .login img {
+  margin-right: 8px;
 }
 
 .aside {
@@ -267,10 +264,6 @@ header .end .login span {
   height: 300px;
   border: solid 1px black;
   margin: 10px;
-}
-
-img {
-  width: 70%;
 }
 
 .container {
