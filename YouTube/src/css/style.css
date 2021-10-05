@@ -187,7 +187,7 @@ header .end .login img {
   margin-right: 8px;
 }
 
-.aside {
+aside {
   grid-area: aside;
   height: calc(100vh - 70px);
   position: sticky;
@@ -195,14 +195,14 @@ header .end .login img {
   border: solid 1px white;
   padding: 0 0 12px 0;
 }
-.aside:hover {
+aside:hover {
   overflow: auto;
 }
-.aside .aside__section {
+aside .aside__section {
   padding: 12px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.aside .aside__guide {
+aside .aside__guide {
   display: flex;
   align-items: center;
   padding: 0 24px;
@@ -211,12 +211,12 @@ header .end .login img {
   font-weight: 500;
   font-family: Roboto, Arial, sans-serif;
 }
-.aside .aside__guide .guide__icon {
+aside .aside__guide .guide__icon {
   width: 24px;
   height: 24px;
   margin: 0 24px 0 0;
 }
-.aside .aside__guide:hover {
+aside .aside__guide:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
