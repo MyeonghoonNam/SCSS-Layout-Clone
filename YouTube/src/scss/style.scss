@@ -1,6 +1,6 @@
-@use './layout/header';
-@use './layout/aside';
-@use './layout/main';
+@import './layout/header';
+@import './layout/aside';
+@import './layout/main';
 
 .container {
   display: grid;
