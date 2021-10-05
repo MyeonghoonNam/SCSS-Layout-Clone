@@ -149,9 +149,6 @@ header .end {
   justify-content: flex-end;
 }
 header .end .button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   padding: 0 8px;
   outline: none;
@@ -171,6 +168,13 @@ header .end .button--outlined {
   padding: 0 12px;
   border: 1px solid #065fd4;
   border-radius: 4px;
+  color: #065fd4;
+}
+header .end .button--app:hover::after {
+  content: "YouTube 앱";
+}
+header .end .button--settings:hover::after {
+  content: "설정";
 }
 header .end .button img {
   width: 16px;
