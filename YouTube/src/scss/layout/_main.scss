@@ -1,9 +1,9 @@
-.main {
+main {
   grid-area: main;
   border: solid 1px white;
   z-index: auto;
 
-  .main-header {
+  .categories {
     display: flex;
     justify-content: center;
     position: sticky;
@@ -13,7 +13,7 @@
     background-color: white;
     z-index: 1;
 
-    .main-header__category {
+    .category {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -41,12 +41,12 @@
     }
   }
 
-  .main-section {
+  .videos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, auto));
     padding: 10px 0;
 
-    .main-section__video {
+    .video {
       height: 300px;
       border: solid 1px black;
       margin: 10px;

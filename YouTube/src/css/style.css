@@ -220,12 +220,12 @@ aside .aside__guide:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.main {
+main {
   grid-area: main;
   border: solid 1px white;
   z-index: auto;
 }
-.main .main-header {
+main .categories {
   display: flex;
   justify-content: center;
   position: sticky;
@@ -235,7 +235,7 @@ aside .aside__guide:hover {
   background-color: white;
   z-index: 1;
 }
-.main .main-header .main-header__category {
+main .categories .category {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,19 +252,19 @@ aside .aside__guide:hover {
   cursor: pointer;
   border-radius: 16px;
 }
-.main .main-header .main-header__category:hover {
+main .categories .category:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.main .main-header .main-header__category:nth-child(1) {
+main .categories .category:nth-child(1) {
   background-color: #030303;
   color: white;
 }
-.main .main-section {
+main .videos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, auto));
   padding: 10px 0;
 }
-.main .main-section .main-section__video {
+main .videos .video {
   height: 300px;
   border: solid 1px black;
   margin: 10px;
